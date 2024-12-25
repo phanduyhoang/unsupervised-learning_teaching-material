@@ -2,7 +2,14 @@
 
 Hello everyone! 👋
 
-Welcome to this repository dedicated to **unsupervised learning techniques**. Whether you're a student trying to understand these concepts for the first time, or a professor looking for ready-to-use teaching materials, this resource is here to help! It includes in-depth explanations, real-world analogies, and practical code examples for two of the most important unsupervised learning methods: **K-Means Clustering** and **Principal Component Analysis (PCA)**.
+Welcome to this repository, a part of **my teaching materials on unsupervised learning techniques**. This resource is designed to support both students and professors by offering in-depth explanations, real-world analogies, and practical code examples for two of the most fundamental unsupervised learning methods: **K-Means Clustering** and **Principal Component Analysis (PCA)**.
+
+I created this material to make these concepts accessible to a broader audience, and I’m sharing it **for free** as part of my commitment to advancing education. Whether you're a student exploring these techniques for the first time or a professor looking for ready-to-use teaching content, this repository is here to help.
+
+Feel free to explore, adapt, and share this resource within your learning community. Let's make understanding machine learning easier and more impactful! 😊
+
+---
+
 
 This repository is structured to:
 1. Break down the concepts into easy-to-digest sections.
@@ -115,6 +122,20 @@ Feature extraction is the process of transforming raw data into meaningful featu
 - **Ease of Use**: Many frameworks like TensorFlow and PyTorch offer pretrained models out of the box.
 
 ---
+
+
+- **CIFAR-10 Dataset** (images):
+  - Feature extraction using `VGG16` pretrained on ImageNet.
+  - Dimensionality reduction with PCA to 50 components.
+  - K-Means clustering of extracted features and visualization of clustered images.
+
+---
+
+## 📦 Libraries Used:
+- `scikit-learn`: Clustering, scaling, and PCA.
+- `tensorflow.keras`: Pretrained VGG16 for feature extraction.
+- `OpenCV`: Image resizing and preprocessing.
+
 
 
 ## 📚 Resources and References
